@@ -1,0 +1,29 @@
+.character {
+    background: #fff;
+    border-radius: 2px;
+    height: 150px;
+    margin: 1rem;
+    position: relative;
+    width: 225px;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    text-align: left;
+  }
+  
+  .character > .character-container {
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    background:#6CADDC;
+  }
+  .character > .character-container > img {
+    width: 60%
+  }
+  
+  .character > .content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 15px;
+  }
+  ul {
+    display: inline;
+  }
