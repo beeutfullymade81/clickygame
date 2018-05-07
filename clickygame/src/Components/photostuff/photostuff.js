@@ -5,11 +5,8 @@ import "../../photos.json"
 const Photostuff = props => (
   <div className="character" onClick={() => props.clickCount(props.id)}>
     <div className="character-wrapper">
-    <ul>
-      <li>
-      <img alt={props.name} src={props.image} />
-    </li>
-    </ul>
+    <img alt={props.name} src={props.image}/>
+    
     </div>
   </div>
 );

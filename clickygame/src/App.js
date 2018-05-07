@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Photostuff from "./Components/photostuff/photostuff";
+import Photostuff from "./Components/photostuff";
 import Wrapper from "./Components/wrapper/wrapper";
 import Header from "./Components/header/header";
 import character from "./photos.json";
@@ -50,14 +50,18 @@ class App extends Component {
   render() { return (
       <Wrapper>
         <Header score={this.state.score} highscore={this.state.highscore}><h1>The Ultimate Clicky Game</h1></Header>
+       <div className="row">
         {this.state.character.map(photo => (
           <Photostuff
             clickCount={this.clickCount}
             id={photo.id}
             key={photo.id}
             image={photo.image}
+            className="col-sm-1"
           />
+    
         ))}
+        </div>
       </Wrapper>
     )
   }

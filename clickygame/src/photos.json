@@ -1,71 +1,85 @@
 [
     {
       "id": 1,
+      "name": "photo1",
       "image": "./images/images-2.jpeg",
       "clicked": false
     },
     {
       "id": 2,
+      "name": "photo2",
       "image": "./images/images-2.png",
       "clicked": false
     },
     {
       "id": 3,
-      "image": "./images/images-3.jpeg",
+      "name": "photo3",
+      "image": "./images/images-3.png",
       "clicked": false
     },
     {
       "id": 4,
+      "name": "photo4",
       "image": "./images/images.jpeg",
       "clicked": false
     },
     {
       "id": 5,
+      "name": "photo5",
       "image": "./images/images.png",
       "clicked": false
     },
     {
       "id": 6,
+      "name": "photo6",
       "image": "./images/Unknown-2.jpeg",
       "clicked": false
     },
     {
       "id": 7,
+      "name": "photo7",
       "image": "./images/Unknown-3.jpeg",
       "clicked": false
     },
     {
       "id": 8,
+      "name": "photo8",
       "image": "./images/Unknown-4.jpeg",
       "clicked": false
     },
     {
       "id": 9,
+      "name":"photo9",
       "image": "./images/Unknown-5.jpeg",
       "clicked": false
     },
     {
       "id": 10,
+      "name": "photo10",
       "image": "./images/Unknown-6.jpeg",
       "clicked": false
     },
     {
       "id": 11,
+      "name": "photo11",
       "image": "./images/Unknown-7.jpeg",
       "clicked": false
     },
     {
       "id": 12,
+      "name": "photo12",
       "image": "./images/Unknown-8.jpeg",
       "clicked": false
     },
     {
         "id": 13,
+        "name": "photo13",
         "image": "./images/Unknown-9.jpeg",
         "clicked": false
     },
     {
         "id": 14,
+        "name": "photo14",
         "image": "./images/Unknown.jpeg",
         "clicked": false
     }
